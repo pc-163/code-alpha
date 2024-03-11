@@ -1,4 +1,4 @@
-header, .section_0002, .skill_set_img img{
+header, .section_0002, .skill_set_img img, .target-btn, footer{
     background-color: #062333;
 }
 
@@ -32,8 +32,14 @@ header, .section_0002, .skill_set_img img{
 }
 .section_0003{
     background-image: url('../src/assets/background.jpg');
-
+    background-size: 100% 100%;
 }
-/* .skill_set_img{
-
+.section_0004{
+    background-color: #e1ebed;
+}
+ .project-boxes{
+box-shadow: 0 0 10px #e0e0e0;
+} 
+/* .target-btn{
+    background-color: #e1ebed;
 } */

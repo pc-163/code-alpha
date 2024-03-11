@@ -17,15 +17,15 @@ const NavBar = () => {
               <Link className="text-base font-medium hover:underline underline-offset-4 text-white" href="#">
                 Home
               </Link>
-              <Link className="text-base font-medium hover:underline underline-offset-4 text-white" href="#">
+              <a className="text-base font-medium hover:underline underline-offset-4 text-white" href="#about">
                 About
-              </Link>
-              <Link className="text-base font-medium hover:underline underline-offset-4 text-white" href="#">
+              </a>
+              <a className="text-base font-medium hover:underline underline-offset-4 text-white" href="#skills">
                 Skills
-              </Link>
-              <Link className="text-base font-medium hover:underline underline-offset-4 text-white" href="#">
+              </a>
+              <a className="text-base font-medium hover:underline underline-offset-4 text-white" href="#projects">
                 Projects
-              </Link>
+              </a>
 
             </nav>
             <Link className="font-medium text-base inline-flex items-center bg-white hire_btn sm:gap-2" href="#">
