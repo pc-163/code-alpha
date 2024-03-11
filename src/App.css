@@ -1,0 +1,39 @@
+header, .section_0002, .skill_set_img img{
+    background-color: #062333;
+}
+
+.hire_btn {
+    border-radius: 6px;
+    color: #062333;
+    padding: 2px 16px;
+}
+
+#title_color {
+    color: #d0d0d0;
+    line-height: 5rem;
+}
+
+#text_color {
+    color: #4b4b4b;
+}
+
+#main_icons svg {
+    font-size: 16px;
+}
+
+#main_icons a {
+    background-color: #d0d0d0;
+    padding: 10px;
+}
+
+.set_style{
+    color: #d0d0d0;
+    line-height: 1.4rem !important;
+}
+.section_0003{
+    background-image: url('../src/assets/background.jpg');
+
+}
+/* .skill_set_img{
+
+} */
