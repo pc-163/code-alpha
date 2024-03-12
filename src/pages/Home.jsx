@@ -11,7 +11,7 @@ const Home = () => {
             <Experience />
             <About />
             <Projects />
-            <div className="bottom_set py-20 bg-center bg-no-repeat"></div>
+            <div className="bottom_set py-20 sm:pt-4 xl:py-20 bg-center bg-no-repeat hidden sm:block"></div>
             <Contact />
         </>
     )

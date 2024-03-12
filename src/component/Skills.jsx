@@ -17,7 +17,7 @@ import Bulma from "../assets/bulma.png";
 const Skills = () => {
     return (
         <>
-            <div className="grid grid-cols-4 gap-6 skill_set_img">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-5 xl:grid-cols-4 gap-6 skill_set_img">
                 <img src={Physics} alt="React" className="mx-auto p-2.5 rounded-md" />
                 <img src={Next} alt="Next.js" className="mx-auto p-2.5 rounded-md" />
                 <img src={Js} alt="Java Script" className="mx-auto p-2.5 rounded-md" />

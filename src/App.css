@@ -1,7 +1,9 @@
 header, .section_0002, .target-btn, footer{
     background-color: #062333;
 }
-
+header{
+    position: sticky;
+}
 .hire_btn {
     border-radius: 6px;
     color: #062333;
@@ -10,7 +12,7 @@ header, .section_0002, .target-btn, footer{
 
 #title_color {
     color: #d0d0d0;
-    line-height: 5rem;
+    /* line-height: 5rem; */
 }
 
 #text_color {
@@ -40,6 +42,7 @@ header, .section_0002, .target-btn, footer{
 }
  .project-boxes{
 box-shadow: 0 0 10px #e0e0e0;
+background-color: #f9f9f9;
 } 
 /* .target-btn{
     background-color: #e1ebed;

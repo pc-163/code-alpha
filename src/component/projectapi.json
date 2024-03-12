@@ -1,0 +1,41 @@
+{
+    "projects": [
+        {
+            "id": 4440091,
+            "picture": "../assets/image-1.png",
+            "title": "Team List Website",
+            "text": "Website for a UI/UX Desginer",
+            "gitLink": "https://github.com/pc-163/team-dashboard",
+            "tools": {
+                "react": "",
+                "redux": "",
+                "next": "",
+                "api": "",
+                "node": "",
+                "mongodb": "",
+                "tailwindcss": "",
+                "bootsrap": "",
+                "bulma": ""
+            }
+        },
+        {
+            "id": 4440092,
+            "picture": "../assets/image-1.png",
+            "title": "Team List Website",
+            "text": "Website for a UI/UX Desginer",
+            "gitLink": "https://github.com/pc-163/react-ecommerce-app",
+            "tools": {
+                "react": "",
+                "redux": "",
+                "next": "",
+                "api": "",
+                "node": "",
+                "mongodb": "",
+                "tailwindcss": "",
+                "bootsrap": "",
+                "bulma": ""
+            }
+        }
+        
+    ]
+}

@@ -5,9 +5,9 @@ import { FiGithub } from "react-icons/fi";
 const Footer = () => {
   return (
     <footer className='py-8'>
-      <div className="container mx-auto px-32">
+      <div className="container mx-auto px-4 sm:px-32">
         <img src={imgUrl} alt="PC Dev Logo" className="h-6 mx-auto" />
-        <p className='text-white pt-3 pb-4 text-center'>Designed and built by <a href="/" className='text-blue'>PcDev</a> with Love & Coffee</p>
+        <p className='text-white text-sm sm:text-base pt-3 pb-4 text-center'>Designed and built by <a href="/" className='text-blue'>PcDev</a> with Love & Coffee</p>
         <div className='flex gap-4 mx-auto justify-center' id='main_icons'>
           <a href="https://github.com/pc-163/" target="_blank" className='rounded-full bg-white'>
             <FiGithub />
