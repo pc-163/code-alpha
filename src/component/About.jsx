@@ -8,8 +8,8 @@ const About = () => {
                     <div className="grid grid-cols-12 pb-5">
                         <div className="col-span-5">
                             <h2 className='text-3xl font-bold'>About Me &#129333;</h2>
-                            <p className='pt-4 pb-5 text-2xl'>I'm a dedicated developer with over 1 year of experience in Front-End web development. I love working with technologies like JavaScript, React, Node.js. I'm always eager to learn new things and tackle challenges head-on.                           </p>
-                            <p className="italic">Feel free to reach out to me at <a href="mailto:pcprakashchand163@email.com">pcprakashchand163@email.com</a> or connect with me on  <a href="https://www.linkedin.com/in/pc163/">LinkedIn.</a></p>
+                            <p className='pt-4 pb-5 text-2xl'>I'm a dedicated developer with over 1 year of experience in Front-End web development. I love working with technologies like React, Next.js, Node. I'm always eager to learn new things and tackle challenges head-on.                           </p>
+                            <p className="italic">Feel free to reach out to me at <a href="mailto:pcprakashchand163@gmail.com" className="text-blue-600">pcprakashchand163@gmail.com</a> or connect with me on  <a href="https://www.linkedin.com/in/pc163/" className="text-blue-600">LinkedIn.</a></p>
                         </div>
                     </div>
                     <div className="grid grid-cols-12">

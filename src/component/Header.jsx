@@ -1,6 +1,5 @@
 import imgUrl from '../assets/mypicture.png'
 import { FaTwitter, FaDev, FaLinkedinIn } from "react-icons/fa";
-
 import { FiGithub } from "react-icons/fi";
 
 const Header = () => {

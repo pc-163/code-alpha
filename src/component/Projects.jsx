@@ -12,9 +12,9 @@ import Bootstrap from "../assets/bootstrap.png";
 
 const Projects = () => {
     return (
-        <section className="section_0004 py-20" id='projects'>
+        <section className="section_0004 pt-20" id='projects'>
             <div className="container mx-auto px-32">
-                <h3 className='text-3xl font-bold'>My Projects 💻</h3>
+                <h4 className='text-3xl font-bold'>My Projects 💻</h4>
                 <p className='pt-4 pb-5 text-2xl'>Some Things I've built so far</p>
                 <div className="grid grid-cols-12 gap-8">
                     <div className="col-span-3 cursor-pointer bg-white p-2 rounded-md project-boxes">

@@ -1,4 +1,4 @@
-header, .section_0002, .skill_set_img img, .target-btn, footer{
+header, .section_0002, .target-btn, footer{
     background-color: #062333;
 }
 
@@ -21,11 +21,12 @@ header, .section_0002, .skill_set_img img, .target-btn, footer{
     font-size: 16px;
 }
 
-#main_icons a {
+.section_bg #main_icons a {
     background-color: #d0d0d0;
+}
+#main_icons a {
     padding: 10px;
 }
-
 .set_style{
     color: #d0d0d0;
     line-height: 1.4rem !important;
@@ -34,7 +35,7 @@ header, .section_0002, .skill_set_img img, .target-btn, footer{
     background-image: url('../src/assets/background.jpg');
     background-size: 100% 100%;
 }
-.section_0004{
+.section_0004, .bottom_set{
     background-color: #e1ebed;
 }
  .project-boxes{
@@ -43,3 +44,32 @@ box-shadow: 0 0 10px #e0e0e0;
 /* .target-btn{
     background-color: #e1ebed;
 } */
+.bottom_set{
+    background-image: url('../src/assets/bg-layer.png');
+    background-size: 100% 100%;
+}
+.section_0005{
+    background-color: #dccfed;
+}
+#tags{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+#tags p{
+    border-radius: 6px;
+    color: #062333;
+    padding: 6px 16px;
+    border: 1px solid #062333;
+}
+#tags p:first-child{
+    background-color: #062333;
+    color: #fff;
+}
+.section_0005 button{
+    background-color: #062333;
+}
+.skill_set_img img{
+    background-color: #f9f9f9;
+    width: 100%;
+    aspect-ratio: 21 / 19;
+}
