@@ -1,5 +1,5 @@
 import imgUrl from '../assets/pcdev.png'
-import { FaTwitter, FaDev, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaDev, FaLinkedinIn, FaSkype } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
@@ -20,6 +20,9 @@ const Footer = () => {
           </a>
           <a href="https://twitter.com/pc____g" target="_blank" className='rounded-full bg-white'>
             <FaTwitter />
+          </a>
+          <a href="https://join.skype.com/invite/pVEhuGoLbRKZ" target="_blank" className='rounded-full bg-white'>
+          <FaSkype />
           </a>
         </div>
       </div>

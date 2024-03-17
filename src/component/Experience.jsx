@@ -18,7 +18,7 @@ const Experience = () => {
                         <p className="text-2xl pl-3 set_style uppercase">YEARS OF<br />EXPERIENCE</p>
                     </div>
                     <div className="sm:col-span-8 lg:col-span-5 xl:col-span-4 inline-flex items-center">
-                        <p className="text-white text-7xl font-semibold">12</p>
+                        <p className="text-white text-7xl font-semibold">5</p>
                         <p className="text-2xl pl-3 set_style uppercase">Projects Completed<br />Around The World</p>
                     </div>
                     <div className="sm:col-span-12 lg:col-span-4 xl:col-span-6 inline-flex items-center sm:justify-between pt-6 lg:pt-0 gap-2 sm:gap-0">
