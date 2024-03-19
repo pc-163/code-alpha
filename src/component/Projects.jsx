@@ -1,6 +1,7 @@
 import imgUrl1 from '../../public/image-1.png'
 import imgUrl2 from '../../public/cars.png'
 import ecommerce from '../../public/ecommerce-app.png'
+import expenseTracker from '../../public/expense-tracker.png'
 import taskify from '../../public/taskify.png'
 import todoapp from '../../public/todoapp.png'
 import movieflix from '../../public/Movieflix-Clone.png'
@@ -87,6 +88,21 @@ const Projects = () => {
                             <img src={Physics} alt="React" className="w-10 border rounded-md p-1" />
                             <img src={Api} alt="Api" className="w-10 border rounded-md p-1" />
                             <img src={Bootstrap} alt="Bootstrap" className="w-10 border rounded-md p-1" />
+                        </div>
+
+                        <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/react-ecommerce-app">
+                            <FiGithub /> View Code
+                        </a>
+                    </div>
+
+                    <div className="mb-5 sm:mb-0 sm:col-span-6 lg:col-span-4 xl:col-span-3 cursor-pointer  p-2 rounded-md project-boxes">
+                        <img src={expenseTracker} alt="Daily Expenses Tracker" className='rounded-md pb-3' />
+                        <p className='font-bold uppercase text-base pb-2'>Daily Expenses Tracker</p>
+                        <p className='text-sm pb-4'>A daily expenses tracker for daily expenses.</p>
+                        <div className="inline-flex items-center gap-3 pb-5 w-full">
+                            <img src={Physics} alt="React" className="w-10 border rounded-md p-1" />
+                            <img src={Vite} alt="Vite" className="w-10 border rounded-md p-1" />
+                            <img src={Tailwind} alt="Tailwind" className="w-10 border rounded-md p-1" />
                         </div>
 
                         <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/react-ecommerce-app">
