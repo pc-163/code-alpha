@@ -105,7 +105,7 @@ const Projects = () => {
                             <img src={Tailwind} alt="Tailwind" className="w-10 border rounded-md p-1" />
                         </div>
 
-                        <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/react-ecommerce-app">
+                        <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/expenses-tracker">
                             <FiGithub /> View Code
                         </a>
                     </div>
