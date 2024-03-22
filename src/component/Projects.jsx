@@ -6,6 +6,7 @@ import taskify from '../../public/taskify.png'
 import todoapp from '../../public/todoapp.png'
 import movieflix from '../../public/Movieflix-Clone.png'
 import carrent from '../../public/car-rental.png'
+import dashboard from '../../public/dashboard.png'
 
 
 import { FiGithub } from "react-icons/fi";
@@ -76,6 +77,21 @@ const Projects = () => {
                         </div>
 
                         <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/team-dashboard">
+                            <FiGithub /> View Code
+                        </a>
+                    </div>
+
+                    <div className="mb-5 sm:mb-0 sm:col-span-6 lg:col-span-4 xl:col-span-3 cursor-pointer  p-2 rounded-md project-boxes">
+                        <img src={dashboard} alt="Daily Expenses Tracker" className='rounded-md pb-3' />
+                        <p className='font-bold uppercase text-base pb-2'>Social Media Dashboard</p>
+                        <p className='text-sm pb-4'>A Simple Static social media template (fb, insta, twitter).</p>
+                        <div className="inline-flex items-center gap-3 pb-5 w-full">
+                            <img src={Physics} alt="React" className="w-10 border rounded-md p-1" />
+                            <img src={Next} alt="Next" className="w-10 border rounded-md p-1" />
+                            <img src={Tailwind} alt="Tailwind" className="w-10 border rounded-md p-1" />
+                        </div>
+
+                        <a className="text-white p-2 w-full justify-center rounded-md font-medium text-base inline-flex items-center sm:gap-2 target-btn" href="https://github.com/pc-163/social-media-page">
                             <FiGithub /> View Code
                         </a>
                     </div>
